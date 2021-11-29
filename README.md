@@ -16,7 +16,7 @@ It's a free-for-all!
 #### Installation
 
 1. Clone the repo.
-2. Install db: create db named "to_do_list db" and root user
+2. Install db: create db named "to_do_list" and root user
 3. Packages: run composer install
 4. Run migrations: php artisan migrate.
 5. Run seeders: php artisan db:seed.
