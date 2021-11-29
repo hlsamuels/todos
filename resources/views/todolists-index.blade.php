@@ -17,11 +17,9 @@
             </div>
         @endif
     </div>
-    @if(!Auth::user()->isAdmin())
     <div class="col-xl-6 text-right">
         <a href="{{route('todolists.create')}}" class="btn btn-success "> Add New </a>
     </div>
-    @endif
 </div>
 
 <table class="table table-striped">
